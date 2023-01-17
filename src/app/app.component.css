@@ -1,0 +1,84 @@
+p {
+  font-family: Lato;
+}
+.container-fluid {
+  background: radial-gradient(
+    circle at 0 0,
+    rgb(40, 83, 101),
+    rgb(82, 89, 148),
+    rgb(180, 143, 172),
+    rgb(55, 12, 119),
+    rgb(121, 72, 107),
+    rgb(94, 90, 141),
+    rgb(27, 26, 43)
+  );
+}
+
+.errors {
+  color: red;
+  position: relative;
+  top: -16px;
+  left: 12px;
+}
+input {
+  width: 400px;
+  display: grid;
+  margin: 12px;
+  position: relative;
+  right: 3px;
+}
+.card {
+  background: radial-gradient(
+    circle at 0 0,
+    rgb(40, 83, 101),
+    rgb(82, 89, 148),
+    rgb(180, 143, 172),
+    rgb(55, 12, 119),
+    rgb(121, 72, 107),
+    rgb(94, 90, 141),
+    rgb(27, 26, 43)
+  );
+}
+.btn-primary {
+  background-color: rgb(94, 90, 141) !important;
+}
+
+.btn-primary:active {
+  background-color: rgb(35, 19, 212) !important;
+}
+
+label {
+  color: white;
+  position: relative;
+  left: 12px;
+}
+input {
+  width: 411px;
+  border: 2px solid #e1e1e1;
+  padding: 8px;
+  border-radius: 10px;
+  position: relative;
+  top: 2px;
+}
+@media screen and (max-width: 414px) {
+  input {
+    width: 319px;
+    border: 2px solid #e1e1e1;
+    padding: 8px;
+    border-radius: 10px;
+    position: relative;
+    top: 32px;
+  }
+  .errors {
+    color: red;
+    position: relative;
+    top: -3px;
+    left: 12px;
+  }
+  label {
+    color: white;
+    position: relative;
+    left: 12px;
+    top: 10px;
+  }
+}
